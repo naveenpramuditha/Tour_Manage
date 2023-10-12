@@ -161,7 +161,7 @@ return (
                  <div className='d-flex align-items-center justify-content-between'>
                    <div>
                      <h5>{review.username}</h5>
-                     <p>{new Date('2023-07-18').toLocaleDateString('en-US',options)}</p>
+                     <p>{new Date(review.createdAt).toLocaleDateString('en-US',options)}</p>
                    </div>
                    <span className='d-flex align-items-center'>
                     {review.rating}
